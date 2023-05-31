@@ -6,4 +6,4 @@ O padrão Observer é um padrão de projeto comportamental que permite a comunic
 
 3) Usuario (Observador Concreto): A classe Usuario é uma implementação concreta da interface Observer. Ela representa um usuário da rede social e implementa o método notificar(String atividade). Dentro desse método, o usuário processa a atividade relacionada à sua conexão na rede social.
 
-4) ExemploObserverTest: Quanto aos testes de caso para o padrão Observer, eles podem ser implementados usando uma biblioteca de testes, como o JUnit, para verificar o comportamento esperado do padrão.
+4) ExemploObserverTest (Casos de Teste em JUnit): Quanto aos testes de caso para o padrão Observer, eles podem ser implementados usando uma biblioteca de testes, como o JUnit, para verificar o comportamento esperado do padrão.
