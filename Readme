@@ -1,0 +1,9 @@
+O padrão Observer é um padrão de projeto comportamental que permite a comunicação entre objetos de forma desacoplada e assíncrona. No contexto do padrão Observer em Java, são utilizadas as seguintes classes:
+
+1) Observer "Interface" (Observador): A interface Observer define o contrato para os observadores. Essa interface possui um método notificar(String atividade) que será chamado quando uma nova atividade ocorrer. Os observadores, como a classe Usuario, implementam essa interface.
+
+2) RedeSocial (Sujeito): A classe RedeSocial representa o sujeito observado. Ela gerencia a lista de observadores (usuários) e notifica os observadores quando uma nova atividade é registrada. A classe RedeSocial possui métodos para adicionar e remover observadores, além de um método novaAtividade(String atividade) que notifica todos os observadores.
+
+3) Usuario (Observador Concreto): A classe Usuario é uma implementação concreta da interface Observer. Ela representa um usuário da rede social e implementa o método notificar(String atividade). Dentro desse método, o usuário processa a atividade relacionada à sua conexão na rede social.
+
+4) ExemploObserverTest: Quanto aos testes de caso para o padrão Observer, eles podem ser implementados usando uma biblioteca de testes, como o JUnit, para verificar o comportamento esperado do padrão.
